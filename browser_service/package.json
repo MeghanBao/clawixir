@@ -1,0 +1,15 @@
+﻿{
+  "name": "claw-browser-service",
+  "version": "0.1.0",
+  "description": "Clawixir Browser Service — Playwright automation microservice",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "playwright": "^1.43.0"
+  }
+}

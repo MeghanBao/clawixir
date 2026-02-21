@@ -1,0 +1,27 @@
+# Elixir build artifacts
+/_build/
+/deps/
+*.ez
+
+# Mix
+erl_crash.dump
+*.beam
+
+# Environment secrets — never commit!
+.env
+.env.local
+
+# SQLite databases
+*.db
+*.db-shm
+*.db-wal
+
+# Release artifacts
+/priv/static/assets/
+
+# Node.js (browser_service)
+node_modules/
+
+# Editor
+.elixir_ls/
+.DS_Store
